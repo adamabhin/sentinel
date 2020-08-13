@@ -1,4 +1,4 @@
-= Architecture CIVET
+= Architecture from knowledgebase
 
 == High Level Architecture
 
