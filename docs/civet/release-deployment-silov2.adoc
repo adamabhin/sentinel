@@ -1,0 +1,39 @@
+= Release and Deployment
+
+== Release Schedule and Step
+
+=== Production release Steps
+
+*Dont:*
+
+. Jangan membuat _Pull Request_ setelah _task_ disetujui oleh QA
+. Jangan _merge PR_ to "`pre-release`" tanpa konfirmasi ke orang yang membuat rilis.
+. _unprotected_ _branch_ "`master`" dan "`pre-release`".
+
+*Do:*
+
+. Setiap SE (_Software Engineer_) harus membuat _Pull Request_ ke rilis _branch_ setelah _task_ disetujui QA.
+. Lakukan step no.1 secepat mungkin (_As Soon As Possible_)
+. Orang yang melakukan rilis, harus membangun dan membuat (_build & create_) rilis _note_ untuk setiap _task_ yang sudah siap di-rilis.
+ ** Minimal 1 hari sebelum jadwal rilis, rilis harus sudah diselesaikan
+ ** Cek semua PR (_Pull Request_)
+ ** _Merge PR task_ satu per satu ke "`pre-release`"
+ ** Jika terdapat konflik: perbaiki.
+Jika tidak yakin, koordinasi dengan SE yang mengerjakan _task_ tersebut
+ ** Ketika semua sudah sukses di-_merge_ ke _"`pre-release`"_ : Buat _RELEASE DRAFT_ pada github.
+Tandai _tag_ untuk _version number_ : 1.x.x (major, medium, single-task)
+ ** Finalisasi rilis dari step nomor 5
+ ** Lakukakn PR dari "`pre-release`" ke _branch_ "`master`"
+ ** _WARNING_ : SEMUA PR YANG DI MERGE KE MASTER AKAN DI-RILIS KE TAHAP _PRODUCTION_ (kecuali beberapa repo, seperti: Terra)
+
+=== *Development and UAT Release*
+
+. Semua step sama dengan step pada _release guide_ sebelumnya.
+. Kecuali:
+ ** Tidak perlu untuk membuat _Tag release_
+ ** _Merge_ ke _branch development_ untuk _deploy_ ke server _development_
+
+== Deployment
+
+Jadwal _deployment_ Silo V2 tidak memiliki waktu pasti, idealnya tahap rilis harus di-_deploy_ sebelum _Sprint Review_.
+Ketika tidak memungkinkan, tahap rilis dilakukan pada rentang _Sprint_ berikutnya.

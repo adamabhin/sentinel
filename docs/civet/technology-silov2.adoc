@@ -1,0 +1,22 @@
+= Technology
+
+Berikut adalah teknologi yang digunakan pada sistem Silo V2:
+
+|===
+| *Specification* | *Specs*
+
+| OS
+| -
+
+| Web Server
+| NGINX
+
+| Programming Language
+| PHP7
+
+| Framework
+| Drupal 7
+
+| DBMS
+| MariaDB
+|===

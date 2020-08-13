@@ -1,0 +1,9 @@
+= Problem and Troubleshot
+
+----
+Token Issue with Lazada (partner):
+# Access Token for shooting API to partner website has expiration timestamp.
+# To solve the problem, the system uses refresh token to create new access token
+# In the other hand, the refresh token has its own expiration timestamp. It may occurs the refresh token won't able to renew access token's timestamp.
+# If this happens, go to this link: [https://auth.lazada.com/oauth/authorize?client_id={app_key}&response_type=code&redirect_uri={redirect_url} Request Access Token]  and request again the access token. The code will appear in the link. If the problem occurs again, please to follow the refresh token.
+----

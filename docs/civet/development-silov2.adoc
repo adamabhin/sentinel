@@ -1,0 +1,8 @@
+= Development
+
+Berikut ini adalah _workflow/gitflow_ sistem Silo v2:
+
+image::../images/silov2-gitflow.png[image]
+
+Prosedur _Development_ :
+

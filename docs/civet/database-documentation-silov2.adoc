@@ -1,0 +1,5 @@
+= Database Documentation
+
+Berikut merupakan ERD untuk sistem Silo V2:
+
+image::../images/silov2-erd.png[ERD Silo V2]
