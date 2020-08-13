@@ -1,0 +1,16 @@
+= Developer Onboarding
+
+Berikut ini _tools_ yang digunakan dalam sistem Silo V2:
+
+. MAMP
+. Postman
+. Browser (Chrome, Firefox)
+. Drupal (Programming Language)
+. MySQL (database)
+. PHP 7 (Framework)
+
+== Local Machine Setup
+
+. _Download_ projek Silo V2 dari _repository_ Github "https://github.com/sepulsa/silo2"
+. Buat database silo2 pada _local environment_
+. cp .env.example .env dan set _local configurations_ yang ada

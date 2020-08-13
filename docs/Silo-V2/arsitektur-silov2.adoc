@@ -1,0 +1,20 @@
+= Architecture
+
+== High Level Architecture
+
+Berikut adalah arsitektur sistem Silo V2:
+
+image::../images/silov2-hla.png[HLA Silo V2]
+
+== Related System
+
+|===
+| *System Name* | *Description*
+
+| Kramoris
+| Platform yang digunakan untuk penjualan dan pembelian simcard dan modem.
+
+| Pronghorn
+| Merupakan klien pertama kraken yang bertugas untuk _testing_ produk.
+Selain itu, Pronghorn juga bertugas sebagai _interface_ Sepulsa.
+|===

@@ -1,0 +1,55 @@
+= Environment
+
+Berikut adalah _environment_ dari sistem Silo V2:
+
+|===
+| *Environment* | *Specs* | *Server*
+
+| *Development/Staging*
+| IP Address
+| 103.117.207.9
+
+|
+| URL
+| https://silo.sumpahpalapa.com/
+
+|
+| Doc Root
+| /sepulsa/www/silo
+
+|
+| Service Name
+| Silo
+
+|
+| DB Server
+| localhost: 3***
+
+|
+| Git Repo
+| Silo 2 - Staging
+
+| *Production*
+| IP Address
+| 139.59.223.104
+
+|
+| URL
+| https://silo.alphabill.id/
+
+|
+| Doc Root
+| /sepulsa/www/silo2
+
+|
+| Service Name
+| Silo
+
+|
+| DB Server
+| localhost:3***
+
+|
+| Git Repo
+| Silo2 - Master
+|===
