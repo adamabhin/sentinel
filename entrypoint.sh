@@ -13,7 +13,7 @@ CLONE_DIR=$(mktemp -d)
 # Setup git
 git config --global user.email "$USER_EMAIL"
 git config --global user.name "$DEST_GITHUB_USERNAME"
-git clone --single-branch -b editing "https://$API_TOKEN_GITHUB@github.com/$DEST_GITHUB_USERNAME/$DEST_GITHUB_REPO.git" "$CLONE_DIR"
+git clone --single-branch -b $DEST_BRANCH "https://$API_TOKEN_GITHUB@github.com/$DEST_GITHUB_USERNAME/$DEST_GITHUB_REPO.git" "$CLONE_DIR"
 
 echo 'Copying from '"$SRC_DIR"'/*' "to $CLONE_DIR/$SYSTEM_NAME"
 mkdir -p "$CLONE_DIR/$SYSTEM_NAME"
