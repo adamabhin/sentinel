@@ -16,6 +16,9 @@ inputs:
   destination-branch:
     description: 'Destination branch'
     required: true
+  system-name:
+    description: 'This System Name'
+    required: true
 runs:
   using: 'docker'
   image: 'Dockerfile'
@@ -25,6 +28,7 @@ runs:
     - ${{ inputs.destination-repository-name }}
     - ${{ inputs.user-email }}
     - ${{ inputs.destination-branch }}
+    - ${{ inputs.system-name }}
 branding:
   icon: 'git-commit'
   color: 'green'
