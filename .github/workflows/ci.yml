@@ -3,8 +3,8 @@
 name: Push to Knowledge Based
 
 on:
-  push:
-    branches: [ master ] # we should change to on release
+  release:
+    types: [published]
 
 jobs:
   build:
