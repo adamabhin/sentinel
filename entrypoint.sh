@@ -10,9 +10,9 @@ DEST_BRANCH="$5"
 CLONE_DIR=$(mktemp -d)
 
 # Setup git
-echo "You are $USER_EMAIL $GITHUB_USERNAME"
-git config user.email "$USER_EMAIL"
-git config user.name "$DEST_GITHUB_USERNAME"
+echo "You are $USER_EMAIL $DEST_GITHUB_USERNAME"
+git config --global user.email "$USER_EMAIL"
+git config --global user.name "$DEST_GITHUB_USERNAME"
 git clone "https://$API_TOKEN_GITHUB@github.com/$DEST_GITHUB_USERNAME/$DEST_GITHUB_REPO.git" "$CLONE_DIR"
 
 echo 'Copying from '"$SRC_DIR"'/*' "to $CLONE_DIR/$REPOSITORY_NAME"
