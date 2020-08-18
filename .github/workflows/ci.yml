@@ -23,6 +23,6 @@ jobs:
           destination-github-username: 'rochmadnurdin'
           destination-repository-name: 'knowledgebase'
           user-email: dev@alterra.id
-          destination-branch: editing
+          destination-branch: master
           system-name: SYSTEM
 
