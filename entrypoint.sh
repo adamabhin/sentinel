@@ -25,3 +25,9 @@ cd "$CLONE_DIR"
 git add .
 git commit --message "Update from https://github.com/$GITHUB_REPOSITORY/commit/$GITHUB_SHA"
 git push origin $DEST_BRANCH
+POST /repos/{owner}/{repo}/pulls
+curl \
+  -X POST \
+  -H "Accept: application/vnd.github.v3+json" \
+  https://github.com/rochmadnurdin/kb/pulls \
+  -d '{"title":"title","head":"head","base":"base"}'
