@@ -26,8 +26,11 @@ git add .
 git commit --message "Update from https://github.com/$GITHUB_REPOSITORY/commit/$GITHUB_SHA"
 git push origin $DEST_BRANCH
 POST /https://github.com/rochmadnurdin/kb/{rochmadnurdin}/{https://github.com/rochmadnurdin/kb}/pulls
-curl \
-  -X POST \
-  -H "Accept: application/vnd.github.v3+json" \
-  https://github.com/rochmadnurdin/kb/pulls \
-  -d '{"coba":"coba","rochmadnurdin":"coba API","coba API":"coba API"}'
+curl --location --request POST 'https://api.github.com/repos/rochmadnurdin/knowledgebase/pulls?access_token=$API_TOKEN_GITHUB' \
+--header 'Accept: application/vnd.github.v3+json' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "title": "Message Title",
+    "head": "$DEST_GITHUB_REPO",
+    "base": "BPA"
+}'
