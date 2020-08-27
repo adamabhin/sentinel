@@ -1,4 +1,4 @@
-= Architecture from system
+= Architecture dari system
 
 == High Level Architecture
 
