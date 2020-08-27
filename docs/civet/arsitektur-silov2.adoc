@@ -1,4 +1,4 @@
-= Architecture from knowledgebase
+= Architecture from system
 
 == High Level Architecture
 
