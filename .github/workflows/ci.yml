@@ -5,8 +5,6 @@ name: Push to Knowledge Based
 on:
   release:
     types: [published]
-  push:
-    branch: [before_curl]
 
 jobs:
   build:
@@ -26,16 +24,3 @@ jobs:
         run: |
           sudo apt install curl
           sh entrypoint.sh
-
-      #   uses: rochmadnurdin/System@master
-      #   env:
-      #     API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
-      #   with:
-      #     source-directory: 'docs'
-      #     destination-github-username: 'rochmadnurdin'
-      #     destination-repository-name: 'knowledgebase'
-      #     user-email: dev@alterra.id
-      #     destination-branch: master
-      #     initiative-name: BPA
-      #     system-name: Civet
-
