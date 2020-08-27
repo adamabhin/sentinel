@@ -9,26 +9,18 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: pandoc/latex
     steps:
       - uses: actions/checkout@v2
-      - name: Install cURL Headers
-#         uses: wei/curl@master
-#         with:
-#           args: https://httpbin.org/get
-        run: curl https://curl.haxx.se/download/curl-$V.tar.gz | sudo tar xz -C /usr --strip-components=1 curl-$V/include
-        env:
-          V: 7.58.0
       - name: Pushes to another repository
-        uses: rochmadnurdin/System@master
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
-        with:
-          source-directory: 'docs'
-          destination-github-username: 'rochmadnurdin'
-          destination-repository-name: 'knowledgebase'
-          user-email: dev@alterra.id
-          destination-branch: master
-          initiative-name: BPA
-          system-name: Civet
-
+          SRC_DIR: 'docs'
+          DEST_GITHUB_USERNAME: 'rochmadnurdin'
+          DEST_GITHUB_REPO: 'knowledgebase'
+          USER_EMAIL: dev@alterra.id
+          DEST_BRANCH: master
+          INITIATIVE_NAME: BPA
+          SYSTEM_NAME: Civet
+        run: |
+          sudo apt install curl
+          sh entrypoint.sh
