@@ -1,1 +1,1 @@
-= 002 New Decision Sentinel
+= [ADR-0002] New Decision Sentinel
