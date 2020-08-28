@@ -14,7 +14,7 @@ jobs:
       - name: Pushes to another repository
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
-          SRC_DIR: 'docs'
+          SRC_DIR: 'doc-sentinel'
           DEST_GITHUB_USERNAME: 'rochmadnurdin'
           DEST_GITHUB_REPO: 'knowledgebase'
           USER_EMAIL: dev@alterra.id
