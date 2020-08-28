@@ -1,5 +1,0 @@
-= Naming Convention
-
-Sistem ini dikembangkan dengan Drupal.
-Silo v2 dibangun dengan modul-modul tertentu dalam Drupal 7.
-Untuk lebih jelasnya, silahkan ikuti https://www.drupal.org/docs/7/creating-custom-modules[convention] berikut.
