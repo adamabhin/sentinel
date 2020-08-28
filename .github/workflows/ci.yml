@@ -19,7 +19,7 @@ jobs:
           DEST_GITHUB_REPO: 'knowledgebase'
           USER_EMAIL: dev@alterra.id
           DEST_BRANCH: master
-          INITIATIVE_NAME: bpa
+          INITIATIVE_NAME: docs/bpa
           SYSTEM_NAME: doc-sentinel
         run: |
           sudo apt install curl
