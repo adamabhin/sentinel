@@ -1,2 +1,3 @@
 = Product Information Document Sentinel
 
+<<product-information-sentinel/product-name-sentinel.adoc#, Product Name Sentinel>>
