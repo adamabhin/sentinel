@@ -1,7 +1,7 @@
 = ADR Document Sentinel
 
 
-The documents below is the history of all decisions applied by the development team based on the exploration” diubah jadi “The documents below are the history of all decisions applied by the development team based on the exploration
+The documents below are the history of all decisions applied by the development team based on the exploration
 
 
 |===
