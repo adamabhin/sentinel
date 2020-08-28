@@ -1,4 +1,4 @@
-= [ADR-0001] Taken Decision Sentinel
+= [ADR-0001] Decision Taken Sentinel
 
 :toc:
 :toc-title: 
@@ -9,7 +9,7 @@ ADR (Architecture Decision Record) is a document that captures an important arch
 
 The following is an example of an adr document  template
 
-* Status: [proposed | rejected | accepted | superseded by <<0002-adr-doc-new-decision-sentinel.adoc#, ADR 0002 New Decision>>
+* Status: [proposed | rejected | accepted | superseded by <<0002-new-decision-sentinel.adoc#,  0002 New Decision Sentinel>>
 * Deciders: [list everyone involved in the decision]
 * Date: [YYYY-MM-DD when the decision was last updated]
 
@@ -33,13 +33,6 @@ Good or bad implications because the decisions. For example: The system must fol
 === Related Decisions
 
 Add related ADR Doc on the list
-
-* <<0000-adr-doc-old-decision-sentinel.adoc#, ADR 0000 Old Decision>>
-
-* <<0002-adr-doc-new-decision-sentinel.adoc#, ADR 0002 New Decision>>
-
-* <<0003-adr-doc-other-decision-sentinel.adoc#, ADR 0003 Other Decision>>
-
 
  Details Section is optional if the decision is crystal clear. But important if a decision need intense discussion or some comparison.
 
