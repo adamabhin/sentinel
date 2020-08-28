@@ -1,0 +1,18 @@
+= Smart Biller Sentinel
+
+
+Informasi terkait implementasi Smart Biller pada Sentinel.
+
+Dari gambar _high-level_ untuk Smart Biller di atas dapat dijabarkan sebagai berikut:
+
+1. Sentinel menggunakan _API key_ yang disediakan oleh Smart Biller untuk melakukan _request_ ke sistem Smart Biller.
+2.  Terdapat 8 konfigurasi yang bisa diubah oleh Sentinel, yaitu:
+
+a. Product Biller Config: Konfigurasi Product Biller dimana terdapat fungsi untuk menonaktifkan/ mengaktifkan produk, yang artinya produk tersebut akan/tidak akan disertakan dalam kalkulasi Smart Biller, serta terdapat _archive/unarchive_ pada produk tersebut.
+b. Archive Product Biller: Halaman untuk menampilkan Product Biller yang sudah di-_archive_, serta terdapat fitur untuk _unarchive_ Product Biller tersebut.
+c. Partner Config: Konfigurasi Product Per Partner dimana terdapat fungsi untuk menyertakan produk dalam kalkulasi Smart Biller atau tidak.
+d. Weight Partner Config: -
+e. Weight Category Config:*: -
+f. Category Product Config:: Konfigurasi untuk _mapping_ produk berdasarkan kategori.
+g. Auto Open/Close Config:: Konfigurasi Open/Close untuk _repetitive failed transaction_.
+h. Change Log:*: Halaman untuk menampilkan semua _log_ perubahan yang ada pada konfigurasi Partner Product.

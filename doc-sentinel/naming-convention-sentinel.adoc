@@ -1,0 +1,53 @@
+= Naming Convention Sentinel
+
+
+Tidak ada standardisasi untuk penamaan _file_.
+Tapi, kamu harus memberi nama yang biasa digunakan oleh developer, atau mengambil contoh dari penamaan yang ada.
+
+== Penamaan Method pada Biller
+
+|===
+| Method | Deskripsi
+
+| fetchBillerConfig ()
+| untuk mendapatkan info/mengambil config biller
+
+| addProductMapping ()
+| untuk menambahkan _product mapping_
+
+| removeProductMapping ()
+| untuk menghapus _product mapping_
+
+| validateConfig()
+| untuk mengecek Config sebelum disimpan ke Backend
+
+| save ()
+| untuk menyimpan Biller Config
+|===
+
+== Direktori
+
+|===
+| Direktori | Deskripsi
+
+| kraken-admin/pages/
+| source code halaman web
+
+| kraken-admin/pages/biller
+| source code halaman biller config
+
+| kraken-admin/pages/package
+| source code halaman package
+
+| kraken-admin/pages/partner
+| source code halaman partner
+
+| kraken-admin/pages/product
+| source code halaman product
+
+| kraken-admin/pages/transaction
+| source code halaman transaksi
+
+| kraken-admin/router
+| source code router kraken-admin
+|===

@@ -1,0 +1,19 @@
+= Developer Onboarding Sentinel
+
+== Tools and Preparation
+
+Berikut tools yang digunakan dalam sistem Sentinel: 
+
+|===
+ |Tools | Name | Deskripsi 
+ |Programming Language| Javascript| 
+ |Frameworks|Vue.js|
+ |Package Manager|NPM|
+ |Dev Tools|VSCode, Vue.js Devtool|Vue.js Devtool : Firefox & Chrome Plugin
+|===
+== Local Machine Setup
+
+. _Install_ NPM dan nodejs
+. _Clone_ dari git https://github.com/sepulsa/kraken-admin.git[]
+. Pindah ke _app directory_ dan jalankan "npm install"
+. _Run_ app menggunakan command "npm run dev"

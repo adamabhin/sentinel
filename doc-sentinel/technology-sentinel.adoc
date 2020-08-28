@@ -1,0 +1,13 @@
+= Technology Sentinel
+
+
+== Platform Spesification
+
+|===
+ |Tools | Name | Deskripsi 
+ |Programming Language| Javascript| 
+ |Frameworks|Vue.js|
+ |Package Manager|NPM|
+ |Dev Tools|Visual Studio Code|
+ ||Vue.js Devtool | Firefox & Chrome Plugin
+|===

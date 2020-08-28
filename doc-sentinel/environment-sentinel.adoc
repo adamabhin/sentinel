@@ -1,0 +1,54 @@
+= Environment Sentinel
+
+
+|===
+| Environment | Spesifikasi | Files
+
+| Development/Staging
+| IP Address
+| 159.89.208.88
+
+|
+| URL
+| https://kraken-admin.sumpahpalapa.com/[]
+
+|
+| Doc Root
+| /sepulsa/www/kraken-admin
+
+|
+| Service Name
+|
+
+|
+| DB Server
+|
+
+|
+| Git Branch
+| qa_*
+
+| Production
+| IP Address
+| 13.251.203.212
+
+|
+| URL
+| https://sentinel.sepulsa.id[]
+
+|
+| Doc Root
+| /sepulsa/www/kraken-web/
+
+|
+| Service Name
+|
+
+|
+| DB Server
+|
+
+|
+| Git Branch
+| master
+|===

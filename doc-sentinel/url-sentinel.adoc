@@ -1,0 +1,18 @@
+= System URL Sentinel
+
+
+|===
+| Environment | URL
+
+| Staging
+| https://kraken-admin.sumpahpalapa.com/[]
+
+| Horven
+| https://horven-web.sumpahpalapa.com/login?ref=%2Fdashboard[]
+
+| Production
+| https://sentinel.sepulsa.id/[]
+|===
+
+
+test from KB

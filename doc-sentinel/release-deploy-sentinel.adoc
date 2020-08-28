@@ -1,0 +1,27 @@
+= Release and Deployment Sentinel
+
+== Pivotal
+
+. Buat _release note_ dengan semua informasi tentang fitur yang dirilis dan tercantum dalam iterasi Pivotal saat ini.
+. Buat 'Release Story' di Pivotal _project_ Kraken dan isi deskripsi dengan _release note_ yang dibuat sebelumnya
+. Buat 'Chore Story' di Pivotal Infra dan isi deskripsinya dengan semua _item_ yang harus dilakukan Tim Infra saat _deployment_.
+
+== Git
+
+. PULL REQUEST QA BRANCH ke RELEASE BRANCH
+. Pastikan TRAVIS berhasil dibangun
+. MERGE QA BRANCH ke RELEASE BRANCH
+. Pastikan TRAVIS berhasil dibangun
+. Pull branch release ke lokal
+. FINISH RELEASE BRANCH
+. PUSH DEVELOP BRANCH
+. PUSH MASTER BRANCH
+. Buat TAG baru untuk Git Release
+. Buka http://github.com/[github.com] dan buat _draft_ rilis dan isi deskripsi dengan '_release note_ items header'
+. Buat NEW QA dan RELEASE BRANCH
+. Memberitahu SA untuk _feature_ yang butuh didokumentasikan
+
+== Deployment Schedule
+
+Ini tentatif, idealnya rilis harus digunakan sebelum Sprint Review.
+Jika tidak memungkinkan, rilis harus digunakan dalam rentang _sprint_ sesudahnya.

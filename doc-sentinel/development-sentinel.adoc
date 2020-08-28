@@ -1,0 +1,9 @@
+= Development Sentinel
+
+== Langkah - langkah development sentinel :
+
+. Mulai dari Pivotal
+. _Create branch_ dengan nama `feature/pivotaltaskid-FeatureName` dari _branch_ Origin Develop
+. _Finish with_ Pull Request ke QA_yyyymmdd (terbaru)
+. Jika PR '_accepted_', Travis di UAT server akan _pull_ perubahan terbaru di qa_yyyymmdd
+. QA akan melakukan _test_ di http://kraken-admin.sumpahpalapa.com[kraken-admin.sumpahpalapa.com].
