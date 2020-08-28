@@ -7,4 +7,5 @@ The documents below are the history of all decisions applied by the development 
 |===
 |Document Title |Remark/Explanation 
 |[ADR-0001] Taken Decision Sentinel | <<adr-doc-sentinel/0001-decision-taken-sentinel.adoc#, [ADR-0001] Taken Decision Sentinel>>
+|[ADR-0002] New Decision Sentinel | <<adr-doc-sentinel/0002-new-decision-sentinel.adoc#, [ADR-0002] New Decision Sentinel>>
 |===
