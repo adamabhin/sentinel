@@ -56,4 +56,4 @@ https://github.com/sepulsa/kraken-admin/releases[Release Notes Sentinel]
 
 <<docs-sentinel/adr-doc-sentinel.adoc#, ADR Document Sentinel>>
 
-<<docs-sentine/product-information-sentinel.adoc#, Product Information Document Sentinel>>
+<<docs-sentinel/product-information-sentinel.adoc#, Product Information Document Sentinel>>
