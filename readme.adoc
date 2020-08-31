@@ -31,29 +31,29 @@ Sistem Sentinel berfungsi untuk otentikasi pengguna dan fungsi-fungsi lainnya ya
 == Technical Information
 
 
-<<doc-sentinel/url-sentinel.adoc#, System URL Sentinel>>
+<<docs-sentinel/url-sentinel.adoc#, System URL Sentinel>>
 
-<<doc-sentinel/architecture-sentinel.adoc#, Architecture Sentinel>>
+<<docs-sentinel/architecture-sentinel.adoc#, Architecture Sentinel>>
 
-<<doc-sentinel/technology-sentinel.adoc#, Technology Sentinel>>
+<<docs-sentinel/technology-sentinel.adoc#, Technology Sentinel>>
 
-<<doc-sentinel/environment-sentinel.adoc#, Environment Sentinel>>
+<<docs-sentinel/environment-sentinel.adoc#, Environment Sentinel>>
 
-<<doc-sentinel/release-deploy-sentinel.adoc#, Release and Deployment Sentinel>>
+<<docs-sentinel/release-deploy-sentinel.adoc#, Release and Deployment Sentinel>>
 
 
 == Onboarding Information
 
-<<doc-sentinel/dev-onboarding-sentinel.adoc#, Developer Onboarding Sentinel>>
+<<docs-sentinel/dev-onboarding-sentinel.adoc#, Developer Onboarding Sentinel>>
 
-<<doc-sentinel/development-sentinel.adoc#, Development Sentinel>>
+<<docs-sentinel/development-sentinel.adoc#, Development Sentinel>>
 
-<<doc-sentinel/naming-convention-sentinel.adoc#, Naming Convention Sentinel>>
+<<docs-sentinel/naming-convention-sentinel.adoc#, Naming Convention Sentinel>>
 
 == Documentation
 
 https://github.com/sepulsa/kraken-admin/releases[Release Notes Sentinel]
 
-<<doc-sentinel/adr-doc-sentinel.adoc#, ADR Document Sentinel>>
+<<docs-sentinel/adr-doc-sentinel.adoc#, ADR Document Sentinel>>
 
-<<doc-sentine/product-information-sentinel.adoc#, Product Information Document Sentinel>>
+<<docs-sentine/product-information-sentinel.adoc#, Product Information Document Sentinel>>
